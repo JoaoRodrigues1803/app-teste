@@ -20,16 +20,19 @@ const estilos = StyleSheet.create({
         textAlign: 'center'
     },
     contatoParagrafo:{
-        color: '#400303'
+        color: '#400303',
+        margin: 5
     },
     contatoLista:{
-        width: 150,
+        width: 250,
         alignContent: 'center'
     },
     contatoBox:{
         borderStyle: 'solid',
         borderWidth: 2,
-        alignItems: 'center'
+        alignItems: 'center',
+        borderRadius: 20,
+        margin:5
     }
 });
 
